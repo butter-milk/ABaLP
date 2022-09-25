@@ -1,4 +1,4 @@
-# Arbitrage betting as LP problem
+# Arbitrage Betting as LP problem
 
 ## Introduction
 Arbitrage betting, also known as sure bets, is a way in which you would presumably be able to make money (or break-even) on any bet you make. In this repository, we will propose a way to see arbitrage betting as a LP-problem. This is useful for multiple bets, since in plenty of sports apps, one can bet on more than 2 outcomes (think of win/loss/draw or a finite set of possible goal-outcomes in a soccer match), or even a finite amount of different goal possibilities.
