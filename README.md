@@ -8,6 +8,7 @@ We define P= {p1...pn} a finite set of maximum payouts found on combination of s
 For this problem, we can define the following LP problem:<br />
 Maximize: $rewards - losses$ <br />
 $rewards \leq p_i*x_i \hspace{2cm} i\leq n$ <br />
+$x_i \geq 0 \hspace{2cm} i\leq n$ <br />
 $losses \geq \sum_i x_i$ <br />
 $\sum_i x_i \leq L$ <br />
 When the result is positive, you will make a profit on this game. and you could spend amount xi on that outcome. If the result turns out to be negative, it does mean that you could lose money. Note that it is of great importance that P covers all possible outcomes! Otherwise one could still lose money. 
